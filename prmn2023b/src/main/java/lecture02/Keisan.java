@@ -6,6 +6,7 @@ public class Keisan {
         for (int j : x) {
             ans += j;
         }
+        System.out.println("合計:"+ans);
     }
     void output(){
         if(ans<=49){
